@@ -1,0 +1,24 @@
+
+
+.cardwrap {
+    display: flex;
+    height: 600px;
+    border: 2px solid #006100; 
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+.card-img{
+   border: solid black 1px;
+   margin-top: 50px;
+   height: 400px;
+   width: 200px;
+    
+}
+
+.test {
+    height: 200px;
+    border: 1px solid black;
+    width: 300px;
+    margin-bottom: 20px;
+}
