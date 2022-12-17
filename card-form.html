@@ -45,25 +45,67 @@
     </nav>
   </header>
 
-  <main>
-
-    <div class="container">
-      <div class="cardwrap">
-        <div class="card-img" id="background-image">
-          <div class="text-center" id="title">title</div>
-          <div class="text-center" id="content">content</div>
-          <div class="text-center" id="signed">signed by</div>
+  <main class="row">
+    <div class="border col-md-6 mt-5">
+      <form class="p-5">
+        <div class="row mb-3">
+          <label for="title" class="col-sm-2 col-form-label">Title</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter card Title"
+              id="title"
+            />
+          </div>
         </div>
+        <div class="row mb-3">
+          <label for="sendTo" class="col-sm-2 col-form-label">Destiny</label>
+          <div class="col-sm-10">
+            <input
+              type="text-area"
+              class="form-control"
+              placeholder="enter name of the loved one"
+              id="sendTo"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="email" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input
+              type="text-area"
+              class="form-control"
+              placeholder="enter email of the loved one"
+              id="email"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="content" class="col-sm-2 col-form-label">Content</label>
+          <div class="col-sm-10">
+            <textarea
+              name="content"
+              id="content"
+              cols="40"
+              rows="2"
+            ></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+    <div class="container border col-md-6 mt-5">
+      <div class="card text-center">
+        
+        <div class=" bg-test card-body">
+          
+        <h4>placeholder title</h4>
+        <p>Place holder content</p>
+        <p>Place holder sender</p>
 
+        </div>
       </div>
-      <input type="text" name="text" placeholder="enter title" id="title-content">
-      <input type="text" placeholder="enter content" id="msg-content">
-      <input type="text" placeholder="enter signed" id="signed-content">
-      <button onclick="setData()" class="btn btn-secondary">submit</button>
-      <button onclick="resetData()" class="btn btn-secondary">reset</button>
-      <button onclick="background()" class="btn btn-secondary">add image</button>
-      <div class="mt-5 test"></div>
-
     </div>
   </main>
   <footer>
