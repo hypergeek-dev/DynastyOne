@@ -2,13 +2,14 @@
 const title = document.querySelector("#title");
 const content = document.querySelector("#content");
 const sender = document.querySelector("#sender");
-const image = document.querySelector("#image");
+
 
 // Function to Change card status
 function changeCard() {
   const setTitle = document.querySelector("#setTitle").value;
   const setContent = document.querySelector("#setContent").value;
   const setSender = document.querySelector("#setSender").value;
+  
 
   title.innerHTML = setTitle;
   content.innerHTML = setContent;
@@ -29,9 +30,10 @@ function reset() {
 
 // Function to select CardBackGround
 function Changeimage(event) {
-  image.src = "assets/images/" + event.value + ".jpg";
+  document.getElementById("image").style.backgroundImage = "url(assets/images/" + event.value + ".jpg)"
+  // image.style.backgroundImage  = "url(assets/images/" + event.value + ".jpg)";
 }
-
+console.log(Changeimage())
 // Transform card in downloadable png
 $("#btn_convert").on('click', function () {
   html2canvas(document.getElementById("html-content-holder"),		{
