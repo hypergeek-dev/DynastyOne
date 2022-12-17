@@ -45,6 +45,13 @@
     margin-bottom: 20px;
 }
 
+/* Footer Styling */
+
+.footerw {
+    background-image: url(/assets/images/NAV\ footer.jpg);
+    width: 100%;
+    height: 300px;
+    
 /* About page */
 #about-intro {
     text-align: center;
