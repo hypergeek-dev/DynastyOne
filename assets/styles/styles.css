@@ -16,6 +16,7 @@
     font-family: 'Pacifico', cursive;
     font-size: 20px;
 }
+
 body {
     background-color: #193B53;
 }
@@ -78,6 +79,7 @@ body {
     color: transparent;
     -webkit-background-clip: text;
 }
+
 .logo {
     height: 40px;
 }
@@ -112,6 +114,9 @@ body {
     background-image: url(/assets/images/footerimg.png);
     height: 225px;
     overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .navlink {
