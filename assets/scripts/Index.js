@@ -26,14 +26,13 @@ function reset() {
   title.innerHTML = "";
   content.innerHTML = "";
   sender.innerHTML = "";
+  document.getElementById("image").style.backgroundImage = "url()"
 }
 
 // Function to select CardBackGround
 function Changeimage(event) {
   document.getElementById("image").style.backgroundImage = "url(assets/images/" + event.value + ".jpg)"
-  // image.style.backgroundImage  = "url(assets/images/" + event.value + ".jpg)";
 }
-console.log(Changeimage())
 // Transform card in downloadable png
 $("#btn_convert").on('click', function () {
   html2canvas(document.getElementById("html-content-holder"),		{
@@ -42,7 +41,7 @@ $("#btn_convert").on('click', function () {
   }).then(function (canvas) {
     var anchorTag = document.createElement("a");
     document.body.appendChild(anchorTag);
-    document.getElementById("previewImg").appendChild(canvas);			anchorTag.download = "filename.jpg";
+    anchorTag.download = "filename.jpg";
     anchorTag.href = canvas.toDataURL();
     anchorTag.target = '_blank';
     anchorTag.click();
