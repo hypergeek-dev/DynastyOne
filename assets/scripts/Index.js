@@ -1,32 +1,50 @@
-const setData = () => {
-  let setTitle = document.getElementById("title-content").value;
-  let setContent = document.getElementById("msg-content").value;
-  let setSigned = document.getElementById("signed-content").value;
-  let title = document.getElementById("title");
-  let content = document.getElementById("content");
-  let signed = document.getElementById("signed");
-  if (setTitle.length && setContent.length && setSigned.length >= 1) {
-    content.innerHTML = setContent;
-    signed.append(` ${setSigned}`);
-    title.innerHTML = setTitle;
-  } else {
-    console.log("remove");
-  }
-};
-const background = () => {
-  let image = document.querySelector(".test");
-  image.style.backgroundImage =
-    "url('https://picsum.photos/200/300')";
-};
+// loose variables
+const title = document.querySelector("#title");
+const content = document.querySelector("#content");
+const sender = document.querySelector("#sender");
 
-const resetData = () => {
-  let title = document.getElementById("title");
-  let content = document.getElementById("content");
-  let signed = document.getElementById("signed");
-  let image = document.querySelector(".test");
-  image.style.backgroundImage =
-    "url('')";
-  title.textContent = "title";
-  content.textContent = "content";
-  signed.textContent = "signed";
-};
+
+// Function to Change card status
+function changeCard() {
+  const setTitle = document.querySelector("#setTitle").value;
+  const setContent = document.querySelector("#setContent").value;
+  const setSender = document.querySelector("#setSender").value;
+  
+
+  title.innerHTML = setTitle;
+  content.innerHTML = setContent;
+  sender.innerHTML = setSender;
+
+  if (setTitle.length && setContent.length && setSender.length >= 1) {
+    console.log("is working");
+  } else {
+    console.log("incomplete");
+  }
+}
+// Function to reset all fields
+function reset() {
+  title.innerHTML = "";
+  content.innerHTML = "";
+  sender.innerHTML = "";
+}
+
+// Function to select CardBackGround
+function Changeimage(event) {
+  document.getElementById("image").style.backgroundImage = "url(assets/images/" + event.value + ".jpg)"
+  // image.style.backgroundImage  = "url(assets/images/" + event.value + ".jpg)";
+}
+console.log(Changeimage())
+// Transform card in downloadable png
+$("#btn_convert").on('click', function () {
+  html2canvas(document.getElementById("html-content-holder"),		{
+    allowTaint: true,
+    useCORS: true
+  }).then(function (canvas) {
+    var anchorTag = document.createElement("a");
+    document.body.appendChild(anchorTag);
+    document.getElementById("previewImg").appendChild(canvas);			anchorTag.download = "filename.jpg";
+    anchorTag.href = canvas.toDataURL();
+    anchorTag.target = '_blank';
+    anchorTag.click();
+  });
+});
