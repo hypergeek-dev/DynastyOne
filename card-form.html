@@ -24,7 +24,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
-  <body>
+  <body class="bodybg">
     <header>
       <!-- header contents -->
       <nav class="navbar navbar-expand-lg">
@@ -129,11 +129,8 @@
 
           <div onClick="changeCard()" class="btn btn-primary">Create Card</div>
           <div onClick="reset()" class="btn btn-primary">reset</div>
-          <a id="a" class="btn btn-primary">Download Card</a>
+          <input class="btn btn-primary" type="button" value="Download" id="btn_convert" />
         </form>
-        <input id="btn-Preview-Image" type="button" value="Preview" />
-        <a id="btn-Convert-Html2Image" href="#">Download</a>
-        <input type="button" value="Preview & Convert" id="btn_convert" />
       </div>
       <div class="container border col-md-6 mt-5" id="html-content-holder">
         <div class="card text-center">
@@ -146,7 +143,6 @@
         </div>
       </div>
     </main>
-    <div id="previewImg"></div>
     <footer>
       <!-- Footer contents -->
       <div class="footerw text-center">
