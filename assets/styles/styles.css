@@ -31,10 +31,13 @@ body {
 
 .nav-link {
   font-family: "Pacifico", cursive;
+  margin-right: 10px;
 }
 
 .nav-link i {
     font-size: 24px;
+    color: #edd371;
+    opacity: 0.8;
 }
 
 .audio-container {
@@ -159,11 +162,20 @@ body {
   color: red;
 }
 
+.play-stop-btn {
+  text-align: center;
+  padding-top: 30px;
+  color: #edd371;
+}
+
 .btn-play {
-  background-color: transparent;
+  background: transparent;
+  filter: grayscale(100%);
   margin-top: 10px;
   margin-right: 10px;
 }
+
+
 
 .btn-stop {
   background-color: transparent;
