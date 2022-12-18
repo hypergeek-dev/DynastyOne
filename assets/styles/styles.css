@@ -16,14 +16,13 @@
     font-size: 20px;
 }
 
-.bodybg{
+body {
     background-color: #193B53;
 }
 
 .audio-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:block;
+
 }
 
 .x_bg {
