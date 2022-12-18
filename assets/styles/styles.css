@@ -1,3 +1,4 @@
+
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* font-family: 'Pacifico', cursive; */
@@ -17,26 +18,19 @@
     font-size: 20px;
 }
 
-body {
-    background-color: #193B53;
-}
+
 
 .audio-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:block;
+
 }
 
 .x_bg {
-    position: absolute;
-    display: inline;
+    display: block;
+    width: 100%;
 }
 
-.top_title {
-    top: 400px;
-    left: 200px;
-
-}
+h1{display:block;}
 
 
 .text_box {
@@ -115,6 +109,7 @@ body {
     height: 225px;
     overflow: hidden;
     position: absolute;
+    display: block;
     bottom: 0;
     width: 100%;
 }
