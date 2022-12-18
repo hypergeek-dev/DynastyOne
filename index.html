@@ -25,8 +25,7 @@
 
   <body class="bodybg" onload="start()">
     <header>
-      <button id="btn" onclick="stop()">stop music</button>
-      <button id="btn" onclick="play()">stop music</button>
+      
       <!-- header contents -->
       <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="index.html"
@@ -68,6 +67,8 @@
             </ul>
           </div>
       </nav>
+      <button id="btn" onclick="stop()" class="btn-stop"><span><img src="assets/images/btn-pause.png" /></span></button>
+      <button id="btn" onclick="play()" class="btn-play"><span><img src="assets/images/btn-start.png" /></span></button>
     </header>
 
     <main class="">
@@ -86,7 +87,8 @@
         <h1 class="headline">Happy holidays!</h1>
         <div class=" border mt-5 p-5 card-content">
             <h2>Welcome to jingle bingle</h2>
-            <p>A card generator for your holydays, here you can make your grandma happy with this holyday themed card maker</p>
+            <p>A card generator for your holidays, here you can make your grandma happy with this holiday themed card maker</p>
+            <button class="create-card-btn"><a href="card-form.html">Create your card</a></button>
         </div>
       </div>
     </main>

@@ -85,8 +85,6 @@ html {
   padding: 0 20px 0 20px;
 }
 
-
-
 .about-us-img-container {
   display: flex;
   justify-content: center;
@@ -114,4 +112,34 @@ html {
   width: 35px;
   height: 35px;
   text-align: center;
+}
+
+.create-card-btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    border-radius: 5px;
+}
+
+.create-card-btn a {
+    text-decoration: none;
+    color:black;
+}
+
+.create-card-btn a:hover {
+    color: red;
+}
+
+.btn-play {
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.btn-stop {
+    background-color: transparent;
+    margin-right: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
