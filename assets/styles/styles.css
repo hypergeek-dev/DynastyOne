@@ -86,8 +86,12 @@ body {
 .logo {
   height: 40px;
 }
+.welcome_content {
+  text-align: center
+}
 
 /* Footer Styling */
+
 
 .footerw {
   overflow: hidden;
