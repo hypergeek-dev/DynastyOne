@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css" />
     <script src="assets/scripts/Index.js" defer></script>
+    <script src="assets/scripts/snow3d.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="assets/scripts/html2canvas.js"></script>
     <script
@@ -70,12 +71,11 @@
         </div>
       </nav>
     </header>
-
-    <main class="row">
-      <div class="border col-md-6 mt-5">
+    <div class="row container-fluid">
+      <div class="formText col-md-6 mt-5">
         <form class="p-5">
           <div class="row mb-3">
-            <label for="title" class="col-sm-2 col-form-label">Title</label>
+            <label for="title" class=" col-form-label">Title:</label>
             <div class="col-sm-10">
               <input
                 type="text"
@@ -86,7 +86,7 @@
             </div>
           </div>
           <div class="row mb-3">
-            <label for="sendTo" class="col-sm-2 col-form-label">Destiny</label>
+            <label for="sendTo" class=" col-form-label">To:</label>
             <div class="col-sm-10">
               <input
                 type="text-area"
@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="row mb-3">
-            <label for="content" class="col-sm-2 col-form-label">Content</label>
+            <label for="content" class=" col-form-label">Text:</label>
             <div class="col-sm-10">
               <input
                 type="text-area"
@@ -108,8 +108,8 @@
             </div>
           </div>
           <div class="row mb-3">
-            <label for="content" class="col-sm-2 col-form-label"
-              >BackGround</label
+            <label for="content" class="col-form-label"
+              >Background Image:</label
             >
             <div class="col-sm-10">
               <select
@@ -128,78 +128,23 @@
 
           <div onClick="changeCard()" class="btn btn-primary">Create Card</div>
           <div onClick="reset()" class="btn btn-primary">reset</div>
-          <input class="btn btn-primary" type="button" value="Download" id="btn_convert" />
+          <input
+            class="btn btn-primary"
+            type="button"
+            value="Download"
+            id="btn_convert"
+          />
         </form>
       </div>
-      <div class="container border col-md-6 mt-5" id="html-content-holder">
+      <div class="container p-5  col-md-6 mt-5" id="html-content-holder">
         <div class="card text-center">
-          <div class="bg-test card-body" id="image">
-            <h4 id="title">placeholder title</h4>
-            <p id="content">Place holder content</p>
-            <p id="sender">Place holder sender</p>
-            <!-- <img src="assets/images/"  alt="Selected images" /> -->
+          <div class="cardContainer" id="image">
+            <h4 id="title" class="mt-5 titleFont "></h4>
+            <p id="content" class="mt-5 contentFont"></p>
+            <p id="sender" class="mt-5 senderFont"></p>
           </div>
         </div>
       </div>
-    </main>
-    <footer>
-      <!-- Footer contents -->
-      <div class="footerw text-center">
-        <div class="row">
-          <div class="col">
-            <ul class="navlink row p-4">
-              <a href="index.html" class="p-1">Home</a>
-              <a href="about.html" class="p-1">About Us</a>
-              <a href="card-form.html" class="p-1">Create A Card</a>
-            </ul>
-          </div>
-          <div class="col socialm mt-3">
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="Facebook open in a new page"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-            <a
-              href="https://www.twitter.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="Twitter open in a new page"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="YouTube open in a new page"
-              ><i class="fa-brands fa-youtube"></i
-            ></a>
-            <a
-              href="https://github.com/Vasi012/DynastyOne"
-              target="_blank"
-              rel="noopener"
-              aria-label="GitHub open in a new page"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a
-              href="https://www.pinterest.com"
-              target="_blank"
-              rel="noopener"
-              aria-label="Pinterest open in a new page"
-              ><i class="fa-brands fa-pinterest"></i
-            ></a>
-          </div>
-          <div class="col">
-            <a href="#top" class="top"
-              ><i class="fa-sharp fa-solid fa-circle-up"></i
-            ></a>
-          </div>
-          <div class="container text-center">
-            <div class="col copyright">©Hackathone 2022 - Jingle Bingle</div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    </div>
   </body>
 </html>

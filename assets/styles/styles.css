@@ -9,8 +9,15 @@
 
 /*Home.html page*/
 body {
-  position: relative;
+  background: url(../images/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #193b53;
+  min-height: 100vh;
 }
+
 .bodybg {
   background-color: #193b53;
 }
@@ -22,26 +29,35 @@ body {
 .audio-container {
   display: none;
 }
-
-.text_box {
-  font-family: "Merriweather", serif;
-  position: absolute;
-  display: inline;
-  text-align: center;
-  top: 300px;
-  left: 830px;
-  width: 300px;
-  height: 100px;
-  font-weight: lighter;
-  background-color: #ffffff;
-  padding-top: 25px;
-  padding-right: 15px;
-  padding-bottom: 50px;
-  padding-left: 15px;
-  opacity: 0.5;
-  text-transform: uppercase;
+.remove {
+  text-decoration: none;
+  color: white;
+  color: #edd371;
+  font-size: 40px;
 }
-
+.formText {
+  text-decoration: none;
+  color: white;
+  color: #edd371;
+  font-size: 20px;
+}
+.remove:hover {
+  text-decoration: none;
+  color: white;
+  color: #edd371;
+  font-size: 40px;
+}
+.card-content {
+  font-weight: lighter;
+  font-family: "Luckiest Guy", cursive;
+  opacity: 0.5;
+  color: #edd371;
+}
+.about-content {
+  font-weight: lighter;
+  font-family: "Luckiest Guy", cursive;
+  color: #edd371;
+}
 .headline {
   font-family: "Luckiest Guy", cursive;
   letter-spacing: 5px;
@@ -68,48 +84,10 @@ body {
 /* Footer Styling */
 
 .footerw {
-  height: 225px;
   overflow: hidden;
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-.navlink {
-  text-decoration: none;
-  color: white;
-  text-align: left;
-  margin-left: 10px;
-  font-family: "Pacifico", cursive;
-}
-
-.socialm {
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-}
-
-.navlink a {
-  text-decoration: none;
-  color: white;
-}
-
-.socialm a {
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-}
-
-.top {
-  text-decoration: none;
-  color: white;
-  font-size: 50px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.top i {
-  padding: 25px;
 }
 
 .copyright {
@@ -127,20 +105,10 @@ body {
   size:300px;
 }
 
-#about-intro h1 {
-  padding-bottom: 1.5em;
-}
-html {
-  background: url(images/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 .about-us-img-container {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
   padding: 10px;
@@ -148,14 +116,10 @@ html {
 
 .participant {
   width: 200px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .participant > .participant-img {
   width: 180px;
-  height: 180px;
   border-radius: 50%;
   border: 2px solid rgb(95, 95, 95);
 }
@@ -164,4 +128,55 @@ html {
   width: 35px;
   height: 35px;
   text-align: center;
+}
+
+.create-card-btn {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  border-radius: 5px;
+}
+#image {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.create-card-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.create-card-btn a:hover {
+  color: red;
+}
+
+.btn-play {
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+.btn-stop {
+  background-color: transparent;
+  margin-right: 6px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cardContainer {
+  width: 400px;
+  height: 400px;
+}
+
+.titleFont {
+  font-size: 2.4em;
+}
+
+.contentFont {
+  font-size: 1.2em;
+}
+
+.senderFont {
+  font-size: 1.2em;
 }
