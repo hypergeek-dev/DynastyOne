@@ -33,7 +33,6 @@ function Changeimage(event) {
   document.getElementById("image").style.backgroundImage = "url(assets/images/" + event.value + ".jpg)"
   // image.style.backgroundImage  = "url(assets/images/" + event.value + ".jpg)";
 }
-console.log(Changeimage())
 // Transform card in downloadable png
 $("#btn_convert").on('click', function () {
   html2canvas(document.getElementById("html-content-holder"),		{
