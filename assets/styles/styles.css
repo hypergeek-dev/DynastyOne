@@ -8,7 +8,9 @@
 }
 
 /*Home.html page*/
-
+body {
+    position: relative;
+}
 .bodybg {
   background-color: #193b53;
 }
@@ -50,7 +52,6 @@ h1 {
 
 .headline {
   display: inline;
-  position: absolute;
   top: 60px;
   left: 1000px;
   transform: translate(-50%, -50%);
@@ -76,32 +77,10 @@ h1 {
   height: 40px;
 }
 
-.cardwrap {
-  display: flex;
-  height: 600px;
-  border: 2px solid #006100;
-  padding-left: 300px;
-  padding-right: 300px;
-}
-
-.card-img {
-  border: solid black 1px;
-  margin-top: 50px;
-  height: 400px;
-  width: 200px;
-}
-
-.test {
-  height: 200px;
-  border: 1px solid black;
-  width: 300px;
-  margin-bottom: 20px;
-}
 
 /* Footer Styling */
 
 .footerw {
-  background-image: url(/assets/images/footerimg.png);
   height: 225px;
   overflow: hidden;
   position: absolute;
@@ -163,7 +142,13 @@ h1 {
 #about-intro h1 {
   padding-bottom: 1.5em;
 }
-
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
 .about-us-img-container {
   display: flex;
   justify-content: center;
