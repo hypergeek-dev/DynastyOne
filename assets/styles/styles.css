@@ -1,5 +1,6 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 /* font-family: 'Pacifico', cursive; */
 
 * {
@@ -7,7 +8,13 @@
   padding: 0;
 }
 
+
+
+
+/*Home page*/
+=======
 /*Home.html page*/
+
 body {
   background: url(../images/bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -29,30 +36,35 @@ body {
 .audio-container {
   display: none;
 }
+
 .remove {
   text-decoration: none;
   color: white;
   color: #edd371;
   font-size: 40px;
 }
+
 .formText {
   text-decoration: none;
   color: white;
   color: #edd371;
   font-size: 20px;
 }
+
 .remove:hover {
   text-decoration: none;
   color: white;
   color: #edd371;
   font-size: 40px;
 }
+
 .card-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
   opacity: 0.5;
   color: #edd371;
 }
+
 .about-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
@@ -65,7 +77,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size:100px;
+  font-size: 100px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #540032;
@@ -75,33 +87,21 @@ body {
 .logo {
   height: 40px;
 }
+
 .welcome_content {
-  text-align: center
-}
-
-/* Footer Styling */
-
-
-.footerw {
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.copyright {
-  color: white;
-  font-family: "Pacifico", cursive;
-  font-size: 17px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Domine', serif;
 }
 
 /* About page */
+
 #about-intro {
   text-align: center;
   margin-top: 4em;
   margin-bottom: 4em;
   padding: 0 20px 0 20px;
-  size:300px;
+  size: 300px;
 }
 
 .about-us-img-container {
@@ -117,7 +117,7 @@ body {
   width: 200px;
 }
 
-.participant > .participant-img {
+.participant>.participant-img {
   width: 180px;
   border-radius: 50%;
   border: 2px solid rgb(95, 95, 95);
@@ -129,6 +129,8 @@ body {
   text-align: center;
 }
 
+/*Styling Create A Card */
+
 .create-card-btn {
   width: 150px;
   height: 40px;
@@ -137,11 +139,13 @@ body {
   display: table-cell;
   border-radius: 5px;
 }
+
 #image {
   background-position: center;
   background-size: cover;
   width: 100%;
 }
+
 .create-card-btn a {
   text-decoration: none;
   color: black;

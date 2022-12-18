@@ -1,150 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jingle Bingle - Create A Card</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
-    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css" />
-    <script src="assets/scripts/Index.js" defer></script>
-    <script src="assets/scripts/snow3d.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="assets/scripts/html2canvas.js"></script>
-    <script
-      src="https://kit.fontawesome.com/b678a35cb2.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
 
-  <body class="bodybg">
-    <header>
-      <!-- header contents -->
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              class="logo"
-              src="/assets/images/logo.png"
-              alt="Jingle Bingle Logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="true"
-            data-target="#navbarNav"
-            data-toggle="collapse"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto ml-5">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  ><i class="fa-duotone fa-house-window"> Home</i></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"
-                  ><i class="fa-duotone fa-square-info"> About Us</i></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="card-form.html"
-                  ><i class="fa-duotone fa-circle-plus"> Create A Card</i></a
-                >
-              </li>
-            </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jingle Bingle - Create A Card</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
+  <link rel="stylesheet" type="text/css" href="assets/styles/styles.css" />
+  <script src="assets/scripts/Index.js" defer></script>
+  <script src="assets/scripts/snow3d.js"></script>
+  <!--Script for Bootstrap, Canvas, Font-Awesome-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="assets/scripts/html2canvas.js"></script>
+  <script src="https://kit.fontawesome.com/b678a35cb2.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bodybg">
+  <header>
+    <!-- header contents -->
+    <nav class="navbar navbar-expand-lg">
+      <!--Navigation links and logo-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="/assets/images/logo.png"
+            alt="Jingle Bingle Logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="true" data-target="#navbarNav" data-toggle="collapse"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto ml-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-duotone fa-house-window">
+                  Home</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"><i class="fa-duotone fa-square-info"> About Us</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="card-form.html"><i class="fa-duotone fa-circle-plus"> Create A Card</i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Card form body-->
+  <div class="row container-fluid">
+    <div class="formText col-md-6 mt-5">
+      <form class="p-5">
+        <div class="row mb-3">
+          <label for="title" class=" col-form-label">Title:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" placeholder="Enter a card title." id="setTitle" />
           </div>
         </div>
-      </nav>
-    </header>
-    <div class="row container-fluid">
-      <div class="formText col-md-6 mt-5">
-        <form class="p-5">
-          <div class="row mb-3">
-            <label for="title" class=" col-form-label">Title:</label>
-            <div class="col-sm-10">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Enter card Title"
-                id="setTitle"
-              />
-            </div>
+        <div class="row mb-3">
+          <label for="sendTo" class=" col-form-label">To:</label>
+          <div class="col-sm-10">
+            <input type="text-area" class="form-control" placeholder="Enter the name of loved one." id="setSender" />
           </div>
-          <div class="row mb-3">
-            <label for="sendTo" class=" col-form-label">To:</label>
-            <div class="col-sm-10">
-              <input
-                type="text-area"
-                class="form-control"
-                placeholder="enter name of the loved one"
-                id="setSender"
-              />
-            </div>
+        </div>
+        <div class="row mb-3">
+          <label for="content" class=" col-form-label">Text:</label>
+          <div class="col-sm-10">
+            <input type="text-area" class="form-control" placeholder="Type the text that you will like."
+              id="setContent" />
           </div>
-          <div class="row mb-3">
-            <label for="content" class=" col-form-label">Text:</label>
-            <div class="col-sm-10">
-              <input
-                type="text-area"
-                class="form-control"
-                placeholder="enter email of the loved one"
-                id="setContent"
-              />
-            </div>
+        </div>
+        <div class="row mb-3">
+          <label for="content" class="col-form-label">Background Image:</label>
+          <div class="col-sm-10">
+            <select class="form-select" onchange="Changeimage(this)" id="ddlViewBy">
+              <option value="1">Background One</option>
+              <option value="3" selected="selected">
+                Select a Background image.
+              </option>
+              <option value="2">Background Two</option>
+            </select>
           </div>
-          <div class="row mb-3">
-            <label for="content" class="col-form-label"
-              >Background Image:</label
-            >
-            <div class="col-sm-10">
-              <select
-                class="form-select"
-                onchange="Changeimage(this)"
-                id="ddlViewBy"
-              >
-                <option value="1">BackGround1</option>
-                <option value="3" selected="selected">
-                  Select a BackGround
-                </option>
-                <option value="2">BackGround2</option>
-              </select>
-            </div>
-          </div>
+        </div>
 
-          <div onClick="changeCard()" class="btn btn-primary">Create Card</div>
-          <div onClick="reset()" class="btn btn-primary">reset</div>
-          <input
-            class="btn btn-primary"
-            type="button"
-            value="Download"
-            id="btn_convert"
-          />
-        </form>
-      </div>
-      <div class="container p-5  col-md-6 mt-5" id="html-content-holder">
-        <div class="card text-center">
-          <div class="cardContainer" id="image">
-            <h4 id="title" class="mt-5 titleFont "></h4>
-            <p id="content" class="mt-5 contentFont"></p>
-            <p id="sender" class="mt-5 senderFont"></p>
-          </div>
+        <div onClick="reset()" class="btn btn-primary">Reset</div>
+        <div onClick="changeCard()" class="btn btn-primary">Preview Card</div>
+        <input class="btn btn-primary" type="button" value="Download" id="btn_convert" />
+      </form>
+    </div>
+    <div class="container p-5  col-md-6 mt-5" id="html-content-holder">
+      <div class="card text-center">
+        <div class="cardContainer" id="image">
+          <h4 id="title" class="mt-5 titleFont "></h4>
+          <p id="content" class="mt-5 contentFont"></p>
+          <p id="sender" class="mt-5 senderFont"></p>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
