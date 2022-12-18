@@ -24,8 +24,7 @@
   </head>
 
   <body class="bodybg" onload="start()">
-      <button id="btn" onclick="stop()">stop music</button>
-      <button id="btn" onclick="play()">stop music</button>
+    
       <!-- header contents -->
       <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="index.html"
@@ -66,7 +65,10 @@
               </li>
             </ul>
           </div>
+            
       </nav>
+        <button id="btn" onclick="stop()" class="btn-stop"><span><img src="assets/images/btn-pause.png" /></span></button>
+        <button id="btn" onclick="play()" class="btn-play"><span><img src="assets/images/btn-start.png" /></span></button>
 
       <div class="audio-container">
         <audio
