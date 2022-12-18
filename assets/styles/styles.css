@@ -9,15 +9,15 @@
 }
 
 /*Home.html page*/
-html { 
-    background: url(../images/bg.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #193b53;
-  }
-
+body {
+  background: url(../images/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #193b53;
+  min-height: 100vh;
+}
 
 .bodybg {
   background-color: #193b53;
@@ -31,13 +31,28 @@ html {
 .audio-container {
   display: none;
 }
-
-.card-content{
-    font-weight: lighter;
-    font-family: "Luckiest Guy", cursive;
-    opacity: 0.5;
+.remove{
+    text-decoration: none;
+    color: white;
     color: #edd371;
-    
+    font-size: 40px;
+}
+.remove:hover{
+    text-decoration: none;
+    color: white;
+    color: #edd371;
+    font-size: 40px;
+}
+.card-content {
+  font-weight: lighter;
+  font-family: "Luckiest Guy", cursive;
+  opacity: 0.5;
+  color: #edd371;
+}
+.about-content {
+  font-weight: lighter;
+  font-family: "Luckiest Guy", cursive;
+  color: #edd371;
 }
 .headline {
   font-family: "Luckiest Guy", cursive;
@@ -80,15 +95,12 @@ html {
 /* About page */
 #about-intro {
   text-align: center;
-  margin-top: 4em;
-  margin-bottom: 4em;
-  padding: 0 20px 0 20px;
 }
 
 .about-us-img-container {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
   padding: 10px;
@@ -96,14 +108,11 @@ html {
 
 .participant {
   width: 200px;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  
 }
 
 .participant > .participant-img {
   width: 180px;
-  height: 180px;
   border-radius: 50%;
   border: 2px solid rgb(95, 95, 95);
 }
