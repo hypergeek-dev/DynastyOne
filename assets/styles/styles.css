@@ -24,7 +24,6 @@ body {
 
 .nav-link {
   font-family: "Pacifico", cursive;
-  font-size: 20px;
 }
 
 .audio-container {
@@ -100,6 +99,10 @@ body {
 /* About page */
 #about-intro {
   text-align: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding: 0 20px 0 20px;
+  size:300px;
 }
 
 .about-us-img-container {
