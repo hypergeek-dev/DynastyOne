@@ -1,5 +1,6 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 /* font-family: 'Pacifico', cursive; */
 
 * {
@@ -7,7 +8,13 @@
   padding: 0;
 }
 
+
+
+
+/*Home page*/
+=======
 /*Home.html page*/
+
 body {
   background: url(../images/bg.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -24,7 +31,6 @@ body {
 
 .nav-link {
   font-family: "Pacifico", cursive;
-  font-size: 20px;
 }
 
 .nav-link i {
@@ -34,24 +40,28 @@ body {
 .audio-container {
   display: none;
 }
+
 .remove {
   text-decoration: none;
   color: white;
   color: #edd371;
   font-size: 40px;
 }
+
 .formText {
   text-decoration: none;
   color: white;
   color: #edd371;
   font-size: 20px;
 }
+
 .remove:hover {
   text-decoration: none;
   color: white;
   color: #edd371;
   font-size: 40px;
 }
+
 .card-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
@@ -59,55 +69,49 @@ body {
   color: #edd371;
 }
 
+<<<<<<< HEAD
 .card-content p {
     padding: 20px;
 }
+=======
+>>>>>>> 0ecf643b8d1db29366fd4fc147491d7a31a759bc
 .about-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
   color: #edd371;
 }
+
 .headline {
-  font-family: "Luckiest Guy", cursive;
-  letter-spacing: 5px;
-  font-size: 100px;
-  font-weight: lighter;
-  background-image: linear-gradient(
-    to right,
-    #462523 0,
-    #cb9b51 22%,
-    #f6e27a 45%,
-    #f6f2c0 50%,
-    #f6e27a 55%,
-    #cb9b51 78%,
-    #462523 100%
-  );
-  color: transparent;
+  background-image: url(/assets/images/gold-textured-background.jpg);
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #540032;
+  font-weight: 800;
 }
 
 .logo {
   height: 40px;
 }
 
-/* Footer Styling */
-
-.footerw {
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.copyright {
-  color: white;
-  font-family: "Pacifico", cursive;
-  font-size: 17px;
+.welcome_content {
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Domine', serif;
 }
 
 /* About page */
+
 #about-intro {
   text-align: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding: 0 20px 0 20px;
+  size: 300px;
 }
 
 .about-us-img-container {
@@ -123,7 +127,7 @@ body {
   width: 200px;
 }
 
-.participant > .participant-img {
+.participant>.participant-img {
   width: 180px;
   border-radius: 50%;
   border: 2px solid rgb(95, 95, 95);
@@ -135,6 +139,8 @@ body {
   text-align: center;
 }
 
+/*Styling Create A Card */
+
 .create-card-btn {
   width: 150px;
   height: 40px;
@@ -143,11 +149,13 @@ body {
   display: table-cell;
   border-radius: 5px;
 }
+
 #image {
   background-position: center;
   background-size: cover;
   width: 100%;
 }
+
 .create-card-btn a {
   text-decoration: none;
   color: black;
@@ -185,8 +193,12 @@ body {
 
 .senderFont {
   font-size: 1.2em;
+<<<<<<< HEAD
 }
 
 .player-btn {
     text-align: right;
 }
+=======
+}
+>>>>>>> 0ecf643b8d1db29366fd4fc147491d7a31a759bc
