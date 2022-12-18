@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*Home.html page*/
@@ -37,7 +38,6 @@ body {
     left: 200px;
 
 }
-
 
 .text_box {
     font-family: 'Merriweather', serif;
@@ -113,10 +113,12 @@ body {
 .footerw {
     background-image: url(/assets/images/footerimg.png);
     height: 225px;
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
 }
 
 .navlink {
@@ -168,6 +170,7 @@ body {
     margin-top: 4em;
     margin-bottom: 4em;
     padding: 0 20px 0 20px;
+    font-size: 18px;
 }
 
 #about-intro h1 {
@@ -202,3 +205,24 @@ body {
     height: 35px;
     text-align: center;
 }
+
+/* form page*/
+.main-form {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#html-content-holder {
+    padding: 0;
+    margin: 2em;
+    width: 600px;
+}
+
+.main-card-input {
+    padding: 0;
+    margin: 2em;
+}
+

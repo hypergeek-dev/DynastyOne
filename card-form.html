@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Jingle Bingle - Create A Card</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
-    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.png"/>
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css"/>
     <script src="assets/scripts/Index.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="assets/scripts/html2canvas.js"></script>
@@ -24,7 +24,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
-  <body >
+  <body>
     <header>
       <!-- header contents -->
       <nav class="navbar navbar-expand-lg">
@@ -71,11 +71,12 @@
       </nav>
     </header>
 
-    <main class="row">
-      <div class="border col-md-6 mt-5">
+    <main class="row main-form">
+      
+      <div class="border col-md-6 mt-5 main-card-input">
         <form class="p-5">
           <div class="row mb-3">
-            <label for="title" class="col-sm-2 col-form-label">Title</label>
+            <label for="title" class="col-sm-2 col-form-label">Title:</label>
             <div class="col-sm-10">
               <input
                 type="text"
@@ -86,7 +87,7 @@
             </div>
           </div>
           <div class="row mb-3">
-            <label for="sendTo" class="col-sm-2 col-form-label">Destiny</label>
+            <label for="sendTo" class="col-sm-2 col-form-label">To:</label>
             <div class="col-sm-10">
               <input
                 type="text-area"
@@ -97,7 +98,7 @@
             </div>
           </div>
           <div class="row mb-3">
-            <label for="content" class="col-sm-2 col-form-label">Content</label>
+            <label for="content" class="col-sm-2 col-form-label">Text:</label>
             <div class="col-sm-10">
               <input
                 type="text-area"
@@ -109,7 +110,7 @@
           </div>
           <div class="row mb-3">
             <label for="content" class="col-sm-2 col-form-label"
-              >BackGround</label
+              >Background Image:</label
             >
             <div class="col-sm-10">
               <select
@@ -205,5 +206,7 @@
         </div>
       </div>
     </footer>
+
   </body>
+
 </html>
