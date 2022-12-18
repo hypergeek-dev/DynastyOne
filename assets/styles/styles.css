@@ -49,6 +49,10 @@ body {
   opacity: 0.5;
   color: #edd371;
 }
+
+.card-content p {
+    padding: 20px;
+}
 .about-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
@@ -100,7 +104,7 @@ body {
 .about-us-img-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   flex-wrap: wrap;
   gap: 30px;
   padding: 10px;
@@ -144,6 +148,7 @@ body {
 .btn-play {
     background-color: transparent;
     margin-top: 10px;
+    margin-right: 10px;
 }
 
 .btn-stop {
@@ -151,4 +156,8 @@ body {
     margin-right: 6px;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.player-btn {
+    text-align: right;
 }
