@@ -160,6 +160,7 @@ body {
 .btn-play {
   background-color: transparent;
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 .btn-stop {
