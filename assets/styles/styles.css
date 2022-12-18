@@ -5,7 +5,6 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 
 /*Home.html page*/
@@ -31,17 +30,23 @@ body {
 .audio-container {
   display: none;
 }
-.remove{
-    text-decoration: none;
-    color: white;
-    color: #edd371;
-    font-size: 40px;
+.remove {
+  text-decoration: none;
+  color: white;
+  color: #edd371;
+  font-size: 40px;
 }
-.remove:hover{
-    text-decoration: none;
-    color: white;
-    color: #edd371;
-    font-size: 40px;
+.formText {
+  text-decoration: none;
+  color: white;
+  color: #edd371;
+  font-size: 20px;
+}
+.remove:hover {
+  text-decoration: none;
+  color: white;
+  color: #edd371;
+  font-size: 40px;
 }
 .card-content {
   font-weight: lighter;
@@ -108,7 +113,6 @@ body {
 
 .participant {
   width: 200px;
-  
 }
 
 .participant > .participant-img {
@@ -124,31 +128,52 @@ body {
 }
 
 .create-card-btn {
-    width: 150px;
-    height: 40px;
-    margin-top: 20px;
-    vertical-align: middle;
-    display: table-cell;
-    border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  vertical-align: middle;
+  display: table-cell;
+  border-radius: 5px;
 }
-
+#image {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
 .create-card-btn a {
-    text-decoration: none;
-    color:black;
+  text-decoration: none;
+  color: black;
 }
 
 .create-card-btn a:hover {
-    color: red;
+  color: red;
 }
 
 .btn-play {
-    background-color: transparent;
-    margin-top: 10px;
+  background-color: transparent;
+  margin-top: 10px;
 }
 
 .btn-stop {
-    background-color: transparent;
-    margin-right: 6px;
-    margin-top: 10px;
-    margin-left: 10px;
+  background-color: transparent;
+  margin-right: 6px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cardContainer {
+  width: 400px;
+  height: 400px;
+}
+
+.titleFont {
+  font-size: 2.4em;
+}
+
+.contentFont {
+  font-size: 1.2em;
+}
+
+.senderFont {
+  font-size: 1.2em;
 }
