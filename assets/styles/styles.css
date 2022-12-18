@@ -12,7 +12,7 @@
 
 
 /*Home page*/
-=======
+
 /*Home.html page*/
 
 body {
@@ -69,12 +69,6 @@ body {
   color: #edd371;
 }
 
-<<<<<<< HEAD
-.card-content p {
-    padding: 20px;
-}
-=======
->>>>>>> 0ecf643b8d1db29366fd4fc147491d7a31a759bc
 .about-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
@@ -193,12 +187,4 @@ body {
 
 .senderFont {
   font-size: 1.2em;
-<<<<<<< HEAD
 }
-
-.player-btn {
-    text-align: right;
-}
-=======
-}
->>>>>>> 0ecf643b8d1db29366fd4fc147491d7a31a759bc
