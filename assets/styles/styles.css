@@ -22,8 +22,7 @@
 }
 
 .audio-container {
-    display: flex;
-    justify-content: center;
+    display: none;
     align-items: center;
 }
 

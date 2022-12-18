@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -15,8 +15,10 @@
     <script src="https://kit.fontawesome.com/b678a35cb2.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bodybg">
+<body onload="start()" class="bodybg">
     <header>
+        <button id="btn" onclick="stop()">stop music</button>
+        <button id="btn" onclick="play()">stop music</button>
         <!-- header contents -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -50,7 +52,7 @@
     <main>
         <div class="audio-container">
 
-            <audio src="assets/audio/Hyson - Silent Night.mp3" controls autoplay loop>Hyson - Silent
+            <audio id="bgAudio" src="assets/audio/Hyson - Silent Night.mp3" controls autoplay loop>Hyson - Silent
               Night</audio>
           </div>
           <div class="top_title">
