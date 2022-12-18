@@ -1,114 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jingle Bingle - About</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css" />
+    <script src="assets/scripts/Index.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b678a35cb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/scripts/snow3d.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jingle Bingle - About</title>
-  <link rel="icon" type="image/x-icon" href="assets/images/icon.png" />
-  <link rel="stylesheet" type="text/css" href="assets/styles/styles.css" />
-  <script src="assets/scripts/Index.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://kit.fontawesome.com/b678a35cb2.js" crossorigin="anonymous"></script>
-  <script src="assets/scripts/snow3d.js"></script>
-
-</head>
-
-<body class="bodybg">
-  <header>
-    <!-- header contents -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img class="logo" src="/assets/images/logo.png"
-            alt="Jingle Bingle Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="true" data-target="#navbarNav" data-toggle="collapse"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto ml-5">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-duotone fa-house-window">
-                  Home</i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html"><i class="fa-duotone fa-square-info"> About Us</i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="card-form.html"><i class="fa-duotone fa-circle-plus"> Create A
-                  Card</i></a>
-            </li>
-          </ul>
+  <body class="bodybg">
+    <header>
+      <!-- header contents -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              class="logo"
+              src="/assets/images/logo.png"
+              alt="Jingle Bingle Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="true"
+            data-target="#navbarNav"
+            data-toggle="collapse"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ml-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  ><i class="fa-duotone fa-house-window"> Home</i></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"
+                  ><i class="fa-duotone fa-square-info"> About Us</i></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="card-form.html"
+                  ><i class="fa-duotone fa-circle-plus"> Create A Card</i></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
+      </nav>
+    </header>
 
     <!-- Main contents -->
-    <section id="about-intro">
-      <h1>Hey 👋 <br> We are Code Crackers!</h1>
-      <p>We are just a bunch of coders from all levels - newbies and professionals - gathered here together who loves to
-        crack some code!<br>
-        We have created this page for the users be able to create and share some awesome, fun and festive greetings to
-        their friends and family. <br>
+    <section class="card-content" id="about-intro">
+      <h1>
+        Hey 👋 <br />
+        We are Code Crackers!
+      </h1>
+      <p>
+        We are just a bunch of coders from all levels - newbies and
+        professionals - gathered here together who loves to crack some code!<br />
+        We have created this page for the users be able to create and share some
+        awesome, fun and festive greetings to their friends and family. <br />
         Enjoy and spread some joy! :D
       </p>
     </section>
 
-    <section id="participants">
-      <div class="about-us-img-container">
+    <section class="about-content"  id="participants">
+      <div class="about-us-img-container  mt-5">
         <figure class="participant">
-          <img class="participant-img" src="assets/images/Aws.png" alt="Aws Sabah Gheni portfolio image">
-          <figcaption><b>Aws Sabah Gheni</b><br>Lorem ipsum dolor sit amet consectetur adipisicing.</figcaption>
-          <a href="https://github.com/AwsSG" target="_blank"><img class="participant-github"
-              src="assets/images/GitHub.png" alt="Github icon"></a>
+          <img
+            class="participant-img"
+            src="assets/images/Aws.png"
+            alt="Aws Sabah Gheni portfolio image"
+          />
+          <figcaption >
+            <b>Aws Sabah Gheni</b><br />Lorem ipsum dolor sit amet consectetur
+            adipisicing.
+          </figcaption>
+          <a href="https://github.com/AwsSG" class="remove" target="_blank"
+            ><i class="fa-brands fa-github"></i></a>
         </figure>
         <figure class="participant">
-          <img class="participant-img" src="assets/images/Dennis.png" alt="Dennis Jensen portfolio image">
-          <figcaption><b>Dennis Jensen</b><br>Lorem ipsum dolor sit amet consectetur adipisicing.</figcaption>
-          <a href="https://github.com/hypergeek-dev" target="_blank"><img class="participant-github"
-              src="assets/images/GitHub.png" alt="Github icon"></a>
+          <img
+            class="participant-img"
+            src="assets/images/Dennis.png"
+            alt="Dennis Jensen portfolio image"
+          />
+          <figcaption>
+            <b>Dennis Jensen</b><br />Lorem ipsum dolor sit amet consectetur
+            adipisicing.
+          </figcaption>
+          <a class="remove" href="https://github.com/hypergeek-dev" target="_blank"
+            ><i class="fa-brands fa-github"></i></a>
         </figure>
         <figure class="participant">
-          <img class="participant-img" src="assets/images/Patrick.png"
-            alt="Patrick Alexander Lucas Van Der Flier portfolio image">
-          <figcaption><b>Patrick Alexander Lucas Van Der Flier</b><br>I code until my back hurts</figcaption>
-          <a href="https://github.com/vanderpatrick" target="_blank"><img class="participant-github"
-              src="assets/images/GitHub.png" alt="Github icon"></a>
+          <img
+            class="participant-img"
+            src="assets/images/Patrick.png"
+            alt="Patrick Alexander Lucas Van Der Flier portfolio image"
+          />
+          <figcaption>
+            <b>Patrick Alexander Lucas Van Der Flier</b><br />I code until my
+            back hurts
+          </figcaption>
+          <a class="remove" href="https://github.com/vanderpatrick" target="_blank"
+            ><i class="fa-brands fa-github"></i></a>
         </figure>
         <figure class="participant">
-          <img class="participant-img" src="assets/images/Vasi.png" alt="Vasilica Pavaloi portfolio image">
-          <figcaption><b>Vasilica Pavaloi</b><br>Lorem ipsum dolor sit amet consectetur adipisicing.</figcaption>
-          <a href="https://github.com/Vasi012" target="_blank"><img class="participant-github"
-              src="assets/images/GitHub.png" alt="Github icon"></a>
+          <img
+            class="participant-img"
+            src="assets/images/Vasi.png"
+            alt="Vasilica Pavaloi portfolio image"
+          />
+          <figcaption>
+            <b>Vasilica Pavaloi</b><br />Lorem ipsum dolor sit amet consectetur
+            adipisicing.
+          </figcaption>
+          <a class="remove" href="https://github.com/Vasi012" target="_blank"
+            ><i class="fa-brands fa-github"></i></a>
         </figure>
         <figure class="participant">
-          <img class="participant-img" src="assets/images/Aiga.png" alt="Aiga Andrejeva portfolio image">
-          <figcaption><b>Aiga Andrejeva</b><br>Coffee fueled and always up for a challenge!</figcaption>
-          <a href="https://github.com/AiGaA" target="_blank"><img class="participant-github"
-              src="assets/images/GitHub.png" alt="Github icon"></a>
+          <img
+            class="participant-img"
+            src="assets/images/Aiga.png"
+            alt="Aiga Andrejeva portfolio image"
+          />
+          <figcaption>
+            <b>Aiga Andrejeva</b><br />Coffee fueled and always up for a
+            challenge!
+          </figcaption>
+          <a class="remove" href="https://github.com/AiGaA" target="_blank"
+            ><i class="fa-brands fa-github"></i></a>
         </figure>
       </div>
     </section>
-
-  </main>
-
-
-  <footer>
-    <!-- Footer contents -->
-    <div class="footerw mb-5 text-center">
-                <div class="col copyright">
-                    ©Hackathone 2022 - Jingle Bingle
-                </div>
-    </div>
-</footer>
-
-
-</body>
-
+  </body>
 </html>
