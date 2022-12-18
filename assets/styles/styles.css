@@ -7,6 +7,8 @@
   padding: 0;
 }
 
+
+
 /*Home.html page*/
 body {
   background: url(../images/bg.png) no-repeat center center fixed;
@@ -58,24 +60,28 @@ body {
   font-family: "Luckiest Guy", cursive;
   color: #edd371;
 }
-.headline {
-  font-family: "Luckiest Guy", cursive;
-  letter-spacing: 5px;
-  font-size: 100px;
-  font-weight: lighter;
-  background-image: linear-gradient(
-    to right,
-    #462523 0,
-    #cb9b51 22%,
-    #f6e27a 45%,
-    #f6f2c0 50%,
-    #f6e27a 55%,
-    #cb9b51 78%,
-    #462523 100%
-  );
-  color: transparent;
-  -webkit-background-clip: text;
+.headline_wrapper {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-left: 500px;
 }
+
+
+#headline {
+  background-image: url(/assets/images/gold-textured-background.jpg);
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  max-width: 75%;
+  font-size:100px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #540032;
+  font-weight: 800;
+}
+
 
 .logo {
   height: 40px;
