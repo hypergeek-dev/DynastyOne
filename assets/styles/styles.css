@@ -1,3 +1,4 @@
+
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* font-family: 'Pacifico', cursive; */
@@ -8,29 +9,18 @@
 }
 
 /*Home.html page*/
-.navbar {
-    background-image: url(../images/navbar.png);
-}
+
 
 .nav-link {
     font-family: 'Pacifico', cursive;
     font-size: 20px;
 }
-.audio-container {
-    display: block;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .x_bg {
     display: block;
-}
 
-.top_title {
-
-    display: block;
-
-}
 
 
 .text_box {
@@ -111,6 +101,7 @@
     height: 225px;
     overflow: hidden;
     position: absolute;
+    display: block;
     bottom: 0;
     width: 100%;
 }
