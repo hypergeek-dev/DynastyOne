@@ -1,4 +1,3 @@
-
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 /* font-family: 'Pacifico', cursive; */
@@ -9,9 +8,7 @@
 }
 
 /*Home.html page*/
-.navbar {
-    background-image: url(../images/navbar.png);
-}
+
 .bodybg {
   background-color: #193b53;
 }
@@ -21,19 +18,16 @@
   font-size: 20px;
 }
 
-body {
-    background-color: #193B53;
-}
-
-
-
 .x_bg {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
-
-h1{display:block;}
-
+.audio-container{
+ display: none;
+}
+h1 {
+  display: block;
+}
 
 .text_box {
   font-family: "Merriweather", serif;
@@ -107,12 +101,12 @@ h1{display:block;}
 /* Footer Styling */
 
 .footerw {
-    background-image: url(/assets/images/footerimg.png);
-    height: 225px;
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-image: url(/assets/images/footerimg.png);
+  height: 225px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .navlink {
