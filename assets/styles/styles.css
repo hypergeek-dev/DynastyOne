@@ -60,28 +60,19 @@ body {
   font-family: "Luckiest Guy", cursive;
   color: #edd371;
 }
-.headline_wrapper {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  padding-left: 500px;
-}
 
-
-#headline {
+.headline {
   background-image: url(/assets/images/gold-textured-background.jpg);
   background-attachment: fixed;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  max-width: 75%;
   font-size:100px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #540032;
   font-weight: 800;
 }
-
 
 .logo {
   height: 40px;
