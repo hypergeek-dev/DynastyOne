@@ -192,6 +192,8 @@ body {
 .cardContainer {
   width: 400px;
   height: 400px;
+  border-color: #edd371;
+  border-style: outset;
 }
 
 .titleFont {
@@ -216,6 +218,25 @@ body {
     padding-top: 30px;
     text-align: center;
     color: #edd371;
+}
+
+/* Form button styles*/
+
+
+.form-btn .btn {
+    background-color: #edd371;
+    color: #193b53;
+    width: 130px;
+    font-weight: 600;
+    margin: 5px;
+    border-color: #edd371;
+}
+
+.form-btn .btn:hover {
+    transition: 0.3s;
+    background-color: #edd371;
+    color: #193b53;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 600px) {
