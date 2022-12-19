@@ -29,9 +29,14 @@ body {
   font-family: "Pacifico";
 }
 
+.navbar-toggler {
+    margin-right: 10px;
+}
+
 .nav-item a{
     font-size: 24px;
     color:#edd371;
+    margin-left: 10px;
 }
 
 .nav-item a:hover {
@@ -73,8 +78,12 @@ body {
 .card-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
-  opacity: 0.5;
+  opacity: 0.9;
   color: #edd371;
+}
+
+.card-content p {
+    padding-top:20px;
 }
 
 .about-content {
