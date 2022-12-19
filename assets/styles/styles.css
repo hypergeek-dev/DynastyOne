@@ -30,7 +30,8 @@ body {
 }
 
 .navbar-toggler {
-    margin-right: 10px;
+    margin: 10px;
+    filter: invert(80%) sepia() saturate(78%) hue-rotate(47deg) brightness(69%);
 }
 
 .nav-item a{
@@ -38,7 +39,7 @@ body {
     color:#edd371;
     margin-left: 10px;
     margin-right: 10px;
-}
+  }
 
 .nav-item a:hover {
     color:#edd371;
