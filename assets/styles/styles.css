@@ -26,7 +26,28 @@ body {
 }
 
 .nav-link {
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico";
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.nav-item a{
+    font-size: 24px;
+    color:#edd371;
+    margin-left: 10px;
+}
+
+.nav-item a:hover {
+    color:#edd371;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.active{
+    color: #edd371 !important;
+    opacity: 0.7;
 }
 
 .audio-container {
@@ -57,8 +78,12 @@ body {
 .card-content {
   font-weight: lighter;
   font-family: "Luckiest Guy", cursive;
-  opacity: 0.5;
+  opacity: 0.9;
   color: #edd371;
+}
+
+.card-content p {
+    padding-top:20px;
 }
 
 .about-content {
@@ -88,6 +113,7 @@ body {
   text-align: center;
   color: whitesmoke;
   font-family: 'Domine', serif;
+  padding-top: 60px;
 }
 
 /* About page */
@@ -184,4 +210,17 @@ body {
   font-size: 30px;
   font-family: 'Playfair Display', serif;
   font-weight: normal;
+}
+
+.play-stop-btn {
+    padding-top: 30px;
+    text-align: center;
+    color: #edd371;
+}
+
+@media screen and (max-width: 600px) {
+    .headline {
+        font-size: 60px;
+        font-weight: 600;
+      }
 }
