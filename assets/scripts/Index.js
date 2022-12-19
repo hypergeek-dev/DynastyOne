@@ -55,12 +55,12 @@ function start() {
 
 function stop() {
   const audio = document.querySelector("#bgAudio");
-  audio.pause()
+  audio.pause();
 }
 function play() {
   const audio = document.querySelector("#bgAudio");
-  audio.currentTime = 0
-  audio.play()
+  audio.currentTime = 0;
+  audio.play();
 }
 
 //variable for headline on landingpage
