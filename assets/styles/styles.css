@@ -9,6 +9,7 @@
   padding: 0;
 }
 
+
 /*Home page*/
 
 body {
@@ -125,7 +126,6 @@ body {
   margin-top: 4em;
   margin-bottom: 4em;
   padding: 0 20px 0 20px;
-  size: 300px;
 }
 
 .about-us-img-container {
