@@ -221,8 +221,6 @@ body {
 }
 
 /* Form button styles*/
-
-
 .form-btn .btn {
     background-color: #edd371;
     color: #193b53;
@@ -239,9 +237,20 @@ body {
     opacity: 0.8;
 }
 
+/* Adding some media rules for more responsive layout*/
 @media screen and (max-width: 600px) {
     .headline {
         font-size: 60px;
         font-weight: 600;
       }
+
+    .form-btn .btn {
+        background-color: #edd371;
+        color: #193b53;
+        width: 121px;
+        font-weight: 500;
+        margin-top: 3px;
+        border-color: #edd371;
+    }
+   
 }
