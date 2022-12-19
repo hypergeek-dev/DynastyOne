@@ -95,7 +95,7 @@ body {
 }
 
 .headline {
-  background-image: url(assets/images/gold-textured-background.jpg);
+  background-image: url("https://res-console.cloudinary.com/volendam/thumbnails/v1/image/upload/v1671427596/bG9nb19naWtub3M=/preview");
   background-attachment: fixed;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
