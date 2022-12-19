@@ -44,13 +44,12 @@ $("#btn_convert").on("click", function () {
     anchorTag.href = canvas.toDataURL();
     anchorTag.target = "_blank";
     anchorTag.click();
+    
   });
 });
-
 // Volume control function
 function start() {
   const audio = document.querySelector("#bgAudio");
-  audio.volume = 0.008;
 }
 
 function stop() {
@@ -61,12 +60,4 @@ function play() {
   const audio = document.querySelector("#bgAudio");
   audio.currentTime = 0;
   audio.play();
-}
-
-//variable for headline on landingpage
-
-{
-  var element=document.getElementById("headline");
-  var tl = gsap.timeline({ repeat: -1 });
-  tl.to("h1", 200, { backgroundPosition: "-960px 0" });
 }
