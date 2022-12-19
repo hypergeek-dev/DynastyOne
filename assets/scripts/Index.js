@@ -62,26 +62,3 @@ function play() {
   audio.currentTime = 0
   audio.play()
 }
-
-// Email js code
-
-function sendEmail() {
-  let params = {
-    image: canvas,
-    testEmail: document.getElementById("testEmail").value,
-    testMessage: document.getElementById("testMessage").value
-  }
-  const service_id = "myService"
-  const template_id = "Jingle_Bingle"
-  
-  emailjs
-    .send(service_id, template_id, params)
-    .then((res) => {
-      document.getElementById("image").value = ""
-      document.getElementById("testEmail").value = ""
-      document.getElementById("testMessage").value = ""
-      console.log(res)
-      alert("sucess")
-    })
-    .catch((err)=> console.log(err))
-}
