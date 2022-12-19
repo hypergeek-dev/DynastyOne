@@ -50,7 +50,6 @@ $("#btn_convert").on("click", function () {
 // Volume control function
 function start() {
   const audio = document.querySelector("#bgAudio");
-  audio.volume = 0.01;
 }
 
 function stop() {
