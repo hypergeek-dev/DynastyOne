@@ -56,15 +56,20 @@ We have conducted responsiveness tests on each HTML page via W3C Validator (http
 index.html
 ![html check](https://user-images.githubusercontent.com/96884287/208450282-dfd4a685-2865-4978-9540-7cb717279ed5.png)
 
+No important errors have been seen here, apart from BTN wich works with JS to allow users to stop and start a song.
 
 aboutus.html![about](https://user-images.githubusercontent.com/96884287/208450301-0f2d7b4d-5d2c-4fb5-aaa4-7a81b0d69ffd.png)
 
+On the about us we have found 5 errors as the element a dosen't support to be a child of the element figure. However it still works and as we are preesed by the time we decided to leave it like that. 
 
 Createacard.html ![createcard](https://user-images.githubusercontent.com/96884287/208450315-51e53372-8d80-4ac4-b602-75c4d99ff168.png)
+
+Some errors have been found here as we should use the same ID as the 'for' tag, however the ID used are conected to JavaScript. And we didn't want to break the code before deployment. THiss will be changed in the future. 
 
 
 404.html ![Color Checker](https://user-images.githubusercontent.com/96884287/208450503-1543ae80-8a28-4ca9-96a2-145f693e1a56.png)
 
+No errors here.
 
 Actual:
 
@@ -100,15 +105,23 @@ index.html
 The home page was tested using WAVE.
 ![home](https://user-images.githubusercontent.com/96884287/208450590-399c8b6c-6488-4f37-b957-ee2c4d2eb3a0.png)
 
+On the home page there was an error that has been fixed.
+The contrast error is becouse of the front headline, as the headline is empty and filled up with ''gold foil'' using js. 
+
 aboutus.html
 
 The About Us page was tested using WAVE.
 ![Screenshot 2022-12-19 085740](https://user-images.githubusercontent.com/96884287/208450611-0a3f6e54-5b35-4040-aeef-09c7702c2a1d.png)
 
+On the about us page we have 5 errors, this errors are becouse of the use of a icon instead of text. This issue can be fix easily however, as we are very pressed by the time we didn't got a chance to fix it. Will be fixed in future updates.
+
 Createacard.html
 
 The Contact Us page was tested using WAVE.
 ![createacard](https://user-images.githubusercontent.com/96884287/208450619-c4f405aa-7ee9-4a46-8ae7-5e95eaa3ea28.png)
+
+The createacard.html has a single error becouse of the empty headline used to allow users to fill up with what they will like to. We thought of using some placeholders but we wanted to offer a good UX experience and allow the users to make the decisions. 
+However, this error dosen't affect in any way the user.
 
 404.html
 
@@ -130,28 +143,39 @@ This was done by clicking on the navigation links on each page.
 
 JS HINT
 
+Some tested were conducted using JSHint in order to check the JavaScript code, however no issues have been seen here apart from the ES6 issues that are caused by the browser.
+
+The other 2 files are not our code, it is borrowed from canvas / google. Therfore no testing has been done. 
+
 ![index html](https://user-images.githubusercontent.com/96884287/208450681-de1fa2fd-6842-46ff-b128-b4ada465ab91.png)
 
 
 Navigation Link
+
 Home
+
 About Us
+
 Create A Card
+
 Page to Load
+
 index.html
+
 about.html
-createacard.html
+
+card-form.html
+
 Links on all pages navigated to the correct pages as expected.
 
-Validator Testing
-HTML
 
-CSS
+# Unfixed Bugs
 
-Unfixed Bugs
 On a desktop page in index.html when clicking on the next button in the slider the website pushes you up by 10%.
+And other. However, as previewsly mentionated, becouse of the short time we haven't performed to much tests, however the website works as expected, and will be fixed in future updates.
+---
 
-Acknowledgments
+## Acknowledgments
 
 
 Firstly I would like to thank everyone for the great work that has been put into this project, well done everyone. 
