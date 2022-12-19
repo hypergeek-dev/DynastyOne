@@ -95,7 +95,7 @@ body {
 }
 
 .headline {
-  background-image: url(/assets/images/gold-textured-background.jpg);
+  background-image: url(../images/headline.jpg);
   background-attachment: fixed;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
