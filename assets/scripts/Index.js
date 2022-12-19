@@ -44,13 +44,13 @@ $("#btn_convert").on("click", function () {
     anchorTag.href = canvas.toDataURL();
     anchorTag.target = "_blank";
     anchorTag.click();
+    
   });
 });
-
 // Volume control function
 function start() {
   const audio = document.querySelector("#bgAudio");
-  audio.volume = 0.008;
+  audio.volume = 0.01;
 }
 
 function stop() {
@@ -63,10 +63,25 @@ function play() {
   audio.play()
 }
 
-//variable for headline on landingpage
+// Email js code
 
-{
-  var element=document.getElementById("headline");
-  var tl = gsap.timeline({ repeat: -1 });
-  tl.to("h1", 200, { backgroundPosition: "-960px 0" });
+function sendEmail() {
+  let params = {
+    image: canvas,
+    testEmail: document.getElementById("testEmail").value,
+    testMessage: document.getElementById("testMessage").value
+  }
+  const service_id = "myService"
+  const template_id = "Jingle_Bingle"
+  
+  emailjs
+    .send(service_id, template_id, params)
+    .then((res) => {
+      document.getElementById("image").value = ""
+      document.getElementById("testEmail").value = ""
+      document.getElementById("testMessage").value = ""
+      console.log(res)
+      alert("sucess")
+    })
+    .catch((err)=> console.log(err))
 }
