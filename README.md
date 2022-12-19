@@ -1,5 +1,7 @@
-# Jingle Bingle
+![logo](https://user-images.githubusercontent.com/96884287/208421438-e824c6ea-e754-4166-bbd1-91ac7286539e.png)
 
+
+# Jingle Bingle
 Jingle Bingle is a merry web application created to spread happiness and joy.
 
 The purpose of this website is to allow users to create a card which they will be able to download and send via email to their loved one.
@@ -7,19 +9,32 @@ The purpose of this website is to allow users to create a card which they will b
 The landing page has been conscientious created to embrace simplicity and at the same time a great user experience. 
 
 When landing on our home page, you should be able to feel the joy of holidays as you are greeted by a merry song. 
+
 ---
-<add mockup pic>
+![Screenshot_2022-12-19_085114-removebg-preview (1)](https://user-images.githubusercontent.com/96884287/208408960-52601a5c-e8c1-4402-a302-4b5cca10ab4f.png)
 ---
-The live website can be found here <add link>.
+The live website can be found [here](https://vasi012.github.io/DynastyOne/).
 
 
 ##	Features
 
 A favicon has been implemented with 2 cards to symbolize the meaning of the page and at the same time to allow users to easily identify this website if they have multiple tabs open.
 
+![fav](https://user-images.githubusercontent.com/96884287/208421721-2d562a84-c237-4a7c-8200-4b867601a78b.png)
+
 At the same time, the title has been selected to offer a clear description of the page where the user is navigating, such as Home, About and Create a Card.
 
-<add favicon images>
+1. Home page
+
+![Home fav](https://user-images.githubusercontent.com/96884287/208421765-b590179f-0fce-47db-bb27-07e65b9d0e28.png)
+
+2. About Us Page
+
+![Contact Favicon](https://user-images.githubusercontent.com/96884287/208421806-202ff9df-510e-4773-a770-358cb1ad143b.png)
+
+3. Create a Card Page
+
+![Create a card](https://user-images.githubusercontent.com/96884287/208421847-fa298590-4c25-4bfa-a078-c053ce252c07.png)
 
 
 ###	Home Page
@@ -36,13 +51,19 @@ At the same time the user has been provided with 2 buttons to be able to stop or
 
 However, every time when the user lands on the home page the music will automatically start. 
 
--	Preview the website landing page (add picture)
--	Preview the image styling (add picture)
--	Preview the buttons to start and stop the music (add picture)
+-	Preview of the website landing page.
+
+![Home Page](https://user-images.githubusercontent.com/96884287/208421957-bc2a134d-e342-4a19-b19c-064c98507ef6.png)
+
+-	Preview for the buttons to start and stop the music.
+
+![start-stop music](https://user-images.githubusercontent.com/96884287/208422027-679b236a-14ed-48b5-9c6e-d03c10644bfb.png)
+
 
 At the same time on the landing page, has been implemented a button to allow users to quickly navigate to the Create A Card page.
 
--	Add picture of button.
+![button goto](https://user-images.githubusercontent.com/96884287/208422071-486f43d6-a729-41f8-89cd-3e1077613a19.png)
+
 
 ###	About page
 
@@ -52,9 +73,17 @@ The user will be able to visualize a small text containing a little ‘’about�
 
 At the same time, the user has the possibility to navigate on each person’s GitHub page in order to be able to preview the profile of each member of the crew. 
 
--	Add image of about us page.
--	Add picture of github icon
--	Add picture of about of one of the users.
+![about page](https://user-images.githubusercontent.com/96884287/208422105-d7453386-52da-4bcc-b704-af2711197e02.png)
+
+
+-	The GitHub icon, which will alow users to navigate to each persons profile. 
+![githubicon](https://user-images.githubusercontent.com/96884287/208422204-bc663c3a-429d-40ff-889e-c06acaace9e6.png)
+
+
+Each crew member has their picture, name and a little about them. 
+
+![details](https://user-images.githubusercontent.com/96884287/208422305-6ae00e52-f83e-4cf6-b735-9fd7da098b96.png)
+
 
 ###	Create A Card
 
@@ -62,22 +91,48 @@ The Create A Card page has been implemented combining simplicity and easily for 
 
 A button to be able to download the final product of the card has been implemented in order to allow users to download and print / distribute the card in other social media platforms. 
 
--	Add picture of the page.
--	Add picture of the final product.
--	Add picture of download button.
+![Create-a-card](https://user-images.githubusercontent.com/96884287/208422340-61447058-49ec-4778-8b00-bbdb9aabcc4b.png)
+
+There are in place 5 diferent backgrounds where the users can choose from. Each background has a specific name.
+
+1. Jingle Bingle
+
+![bg1](https://user-images.githubusercontent.com/96884287/208422516-f7f6bcfb-c98c-4169-88f3-190617dd41c4.png)
+
+2. Christmas Ribbon
+
+![bg2](https://user-images.githubusercontent.com/96884287/208422626-b3608c07-268d-4d64-8293-55b8238e406b.png)
+
+3. Blue Tree
+
+![bg3](https://user-images.githubusercontent.com/96884287/208422678-727f0f0c-4be6-42cd-a707-b816a77be41c.png)
+
+4. Pinebranch 
+
+![bg5](https://user-images.githubusercontent.com/96884287/208422743-295a9608-737a-43a3-927a-a05f93c059f1.png)
+
+5. Ornaments
+
+![bg4](https://user-images.githubusercontent.com/96884287/208422783-fdd556cc-6025-48c6-ac12-9c3b30f153d6.png)
+
+---
+The ideea of this background images is to allow users to have where to choose from. 
+---
+
+- Comand access has been implemented in order to allow users to be able to reset the card, preview it and download it. 
+
+![Screenshot 2022-12-19 120936](https://user-images.githubusercontent.com/96884287/208423051-b740ddb2-3410-4b29-963b-7051048fc605.png)
 
 
 
-###	404 / 403 / 500 page 
+###	404 page 
 
-The website has been implemented with 3 different types of errors in order to allow users to be able to understand when they navigate to a broken link or on a restricted page, at the same time to inform the user if the website has been closed for maintenance. 
+The website has been implemented with type of error in order to allow users to be able to understand when they navigate to a broken link. 
 
-On each page a home button has been implemented in order to allow users to be able to return home without using the back arrow button.
+On the page a home button has been implemented in order to allow users to be able to return home without using the back arrow button.
 
->404 page image
->403 page image
->500 page image
 
+![Screenshot 2022-12-19 121156](https://user-images.githubusercontent.com/96884287/208423503-85af19c5-cebc-454b-95e3-1c6dd55009e2.png)
 
 ## Features left to implement. 
 
@@ -112,14 +167,8 @@ However, the website frameworks have not really been followed as we decided to i
 ### Contact Us page & Mobile view:
 ![contact us](https://user-images.githubusercontent.com/96884287/208068088-2e9e0b51-7b04-4b66-b6c1-a08788968305.png)
 
-### 403 Error page & Mobile view:
-![403](https://user-images.githubusercontent.com/96884287/208068192-6d56bad0-35e7-4a5e-9711-bf316897c391.png)
-
 ### 404 Error page & Mobile view:
 ![404](https://user-images.githubusercontent.com/96884287/208068214-73c0aa87-a3d9-41ac-b0e1-a458e02a55f5.png)
-
-### 500 Error page & Mobile view:
-![500](https://user-images.githubusercontent.com/96884287/208068253-857e0509-d1a2-4e5f-9be1-1d733c67ea5d.png)
 
 ## Technologies.
 
@@ -143,7 +192,7 @@ However, the website frameworks have not really been followed as we decided to i
 4.	From the source section drop-down menu, select the Branch: main.
 5.	Click 'Save'.
 6.	A live link will be displayed in a green banner when published successfully.
-7.	The live link can be found here.
+7.	The live link can be found [here](https://vasi012.github.io/DynastyOne/index.html).
 
 ## Clone the repository code locally
 
@@ -160,3 +209,5 @@ Credits
 3.	Thank you, Code Institute, for providing us this course including the amazing hackathon created to teach us how to work within a team.
 
 # Thank you. 
+
+![filename (1)](https://user-images.githubusercontent.com/96884287/208409055-c0699bd8-4988-43f1-a539-7124f2f82e4e.jpg)
