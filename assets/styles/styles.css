@@ -254,5 +254,12 @@ body {
         margin-top: 3px;
         border-color: #edd371;
     }
-   
+  
+    /*Adding badge to about_me page*/
+    #we_won {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
