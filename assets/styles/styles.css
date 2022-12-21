@@ -155,6 +155,8 @@ body {
 
     /*Adding badge to about_me page*/
     .award {
+      margin: 0;
+      padding: 0;
       display: flex;
       justify-content: center;
         }
