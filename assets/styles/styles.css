@@ -153,6 +153,16 @@ body {
   text-align: center;
 }
 
+    /*Adding badge to about_me page*/
+    .award {
+      display: flex;
+      justify-content: center;
+        }
+      #badge
+      {
+width: 15%;
+      }
+
 /*Styling Create A Card */
 
 .create-card-btn {
@@ -255,11 +265,5 @@ body {
         border-color: #edd371;
     }
   
-    /*Adding badge to about_me page*/
-    #we_won {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
 }
