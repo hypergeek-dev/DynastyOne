@@ -85,6 +85,10 @@ body {
   color: #edd371;
 }
 
+#title, #content, #sender {
+  text-shadow: 0 0 10px #193b53;
+}
+
 .card-content p {
     padding-top:20px;
 }
