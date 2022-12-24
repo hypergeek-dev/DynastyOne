@@ -1,3 +1,11 @@
+![Code Institute - December 2022 Hackathon 1st Place - 2022-12-20](https://user-images.githubusercontent.com/96884287/209453014-77538701-7646-4f13-8d27-9c4faf3f6050.png)
+
+This project has been awarded with 1st place at the hackathon 2022 - Code Institute December Hackathon themed Re:Unify.
+Merits to myself and my colleagues participating at this project, Patrick Alexander, Aiga Andrejeva, Dennis Jensen and Aws Al-adhami.
+
+
+---
+
 ![logo](https://user-images.githubusercontent.com/96884287/208421438-e824c6ea-e754-4166-bbd1-91ac7286539e.png)
 
 
