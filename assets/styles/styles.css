@@ -169,6 +169,18 @@ body {
   text-align: center;
 }
 
+    /*Adding badge to about_me page*/
+    .award {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+        }
+      #badge
+      {
+width: 15%;
+      }
+
 /*Styling Create A Card */
 
 .create-card-btn {
@@ -270,11 +282,12 @@ body {
         margin-top: 3px;
         border-color: #edd371;
     }
-   
 }
 
 /* lights style */
+
 /* credits to https://github.com/KyngCoder */
+
 .lightrope {
   text-align: center;
   white-space: nowrap;
